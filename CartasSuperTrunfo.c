@@ -28,22 +28,16 @@ int main() {
     printf("#Enter first card atributes#\n");
     printf("State: ");
     scanf("%c", &state1);
-
     printf("Card code: ");
     scanf("%s", code1);
-
     printf("City: ");
     scanf("%s", city1);
-
     printf("Population: ");
     scanf("%d", &population1);
-
     printf("Area(km): ");
     scanf("%f", &area1);
-
     printf("PIB: ");
     scanf("%f", &pib1);
-
     printf("Number of tourist spots: ");
     scanf("%d", &touristSpot1);
 
@@ -51,22 +45,16 @@ int main() {
     printf("\n#Enter second card atributes#\n");
     printf("State: ");
     scanf("%c", &state2);
-
     printf("Card code: ");
     scanf("%s", code2);
-
     printf("City: ");
     scanf("%s", city2);
-
     printf("Population: ");
     scanf("%d", &population2);
-
     printf("Area(km): ");
     scanf("%f", &area2);
-
     printf("PIB: ");
     scanf("%f", &pib2);
-
     printf("Number of tourist spots: ");
     scanf("%d", &touristSpot2);
 
