@@ -27,13 +27,13 @@ int main() {
     // Cadastro da primeira carta
     printf("#Enter first card atributes#\n");
     printf("State: ");
-    scanf("%s", &state1);
+    scanf("%c", &state1);
 
     printf("Card code: ");
-    scanf("%s", &code1);
+    scanf("%s", code1);
 
     printf("City: ");
-    scanf("%s", &city1);
+    scanf("%s", city1);
 
     printf("Population: ");
     scanf("%d", &population1);
@@ -50,13 +50,13 @@ int main() {
     // Cadastro da segunda carta
     printf("\n#Enter second card atributes#\n");
     printf("State: ");
-    scanf("%s", &state2);
+    scanf("%c", &state2);
 
     printf("Card code: ");
-    scanf("%s", &code2);
+    scanf("%s", code2);
 
     printf("City: ");
-    scanf("%s", &city2);
+    scanf("%s", city2);
 
     printf("Population: ");
     scanf("%d", &population2);
@@ -68,7 +68,7 @@ int main() {
     scanf("%f", &pib2);
 
     printf("Number of tourist spots: ");
-    scanf("%d", &touristSpot2);    
+    scanf("%d", &touristSpot2);
 
     // Exibição das cartas
     printf("\n## CARD 01 ##\n");
@@ -76,8 +76,8 @@ int main() {
     printf("Card code: %s\n", code1);
     printf("City: %s\n", city1);
     printf("Population: %d\n", population1);
-    printf("Area(km): %.2f\n", area1);
-    printf("PIB: %.2f\n", pib1);
+    printf("Area: %.2f km²\n", area1);
+    printf("PIB: %.2f billions of reais\n", pib1);
     printf("Tourists Spots: %d\n", touristSpot1);
 
     printf("\n## CARD 02 ##\n");
@@ -85,8 +85,8 @@ int main() {
     printf("Card code: %s\n", code2);
     printf("City: %s\n", city2);
     printf("Population: %d\n", population2);
-    printf("Area: %.2f\n km²", area2);
-    printf("PIB: %.2f\n billions of reais", pib2);
+    printf("Area: %.2f km²\n", area2);
+    printf("PIB: %.2f billions of reais\n", pib2);
     printf("Tourists Spots: %d\n\n", touristSpot2);
 
 
