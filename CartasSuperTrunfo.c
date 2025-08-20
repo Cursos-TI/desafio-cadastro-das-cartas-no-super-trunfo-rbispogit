@@ -44,7 +44,7 @@ int main() {
     // Cadastro da segunda carta
     printf("\n#Enter second card atributes#\n");
     printf("State: ");
-    scanf("%c", &state2);
+    scanf(" %c", &state2);
     printf("Card code: ");
     scanf("%s", code2);
     printf("City: ");
